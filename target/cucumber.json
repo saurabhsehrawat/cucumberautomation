@@ -1,0 +1,619 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3046000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "initialise the browser opening \"Planit Jupiter Toys\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Planit Jupiter Toys\"",
+                  "offset": 31
+                }
+              ],
+              "location": "com.bdd.stepdefinations.CommonPage_stepDef.initialise_the_browser_opening(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-02-09T05:20:33.847Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4239000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bdd.stepdefinations.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "To validate error messages and mandatory fields on Contact Page",
+        "description": "",
+        "id": "to-test-jupiter-test-toys-application;to-validate-error-messages-and-mandatory-fields-on-contact-page",
+        "after": [
+          {
+            "result": {
+              "duration": 716000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bdd.stepdefinations.Hooks.embedScreenshotAfter(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 198000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user navigates to \"contact\" in header section and validates page URL",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"contact\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.bdd.stepdefinations.PlanitContact_stepDef.user_navigates_to_in_header_section_and_validates_page_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2507000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on \"Submit\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Submit\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.bdd.stepdefinations.PlanitContact_stepDef.user_clicks_on_button(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 96000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user populates mandatory fields and show them in the report",
+            "match": {
+              "location": "com.bdd.stepdefinations.PlanitContact_stepDef.user_populates_mandatory_fields_and_show_them_in_the_report()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 447000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user verify error message \"Forename is required\" and enter value as \"Saurabh\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Forename is required\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Saurabh\"",
+                  "offset": 68
+                }
+              ],
+              "location": "com.bdd.stepdefinations.PlanitContact_stepDef.user_verify_error_message_and_enter_value_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 458000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user verify error message \"Email is required\" and enter value as \"saurabh@xyz.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Email is required\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"saurabh@xyz.com\"",
+                  "offset": 65
+                }
+              ],
+              "location": "com.bdd.stepdefinations.PlanitContact_stepDef.user_verify_error_message_and_enter_value_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 411000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user verify error message \"Message is required\" and enter value as \"Hello there!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Message is required\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Hello there!\"",
+                  "offset": 67
+                }
+              ],
+              "location": "com.bdd.stepdefinations.PlanitContact_stepDef.user_verify_error_message_and_enter_value_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1623000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks on \"Submit\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Submit\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.bdd.stepdefinations.PlanitContact_stepDef.user_clicks_on_button(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PlanitTest1"
+          },
+          {
+            "name": "@Planit"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2403000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "initialise the browser opening \"Planit Jupiter Toys\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Planit Jupiter Toys\"",
+                  "offset": 31
+                }
+              ],
+              "location": "com.bdd.stepdefinations.CommonPage_stepDef.initialise_the_browser_opening(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-02-09T05:20:47.867Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1397000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bdd.stepdefinations.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "To validate successful submission message on Contact page",
+        "description": "",
+        "id": "to-test-jupiter-test-toys-application;to-validate-successful-submission-message-on-contact-page",
+        "after": [
+          {
+            "result": {
+              "duration": 711000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bdd.stepdefinations.Hooks.embedScreenshotAfter(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 156000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user navigates to \"contact\" in header section and validates page URL",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"contact\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.bdd.stepdefinations.PlanitContact_stepDef.user_navigates_to_in_header_section_and_validates_page_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 336000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user populates mandatory fields without clicking Submit button and show them in report",
+            "match": {
+              "location": "com.bdd.stepdefinations.PlanitContact_stepDef.user_populates_mandatory_fields_without_clicking_submit_button_and_show_them_in_report()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1646000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user clicks on \"Submit\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Submit\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.bdd.stepdefinations.PlanitContact_stepDef.user_clicks_on_button(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 430000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user verify error message \"Forename is required\" and enter value as \"Sehrawat\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Forename is required\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Sehrawat\"",
+                  "offset": 68
+                }
+              ],
+              "location": "com.bdd.stepdefinations.PlanitContact_stepDef.user_verify_error_message_and_enter_value_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 420000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user verify error message \"Email is required\" and enter value as \"sehrawat@xyz.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Email is required\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"sehrawat@xyz.com\"",
+                  "offset": 65
+                }
+              ],
+              "location": "com.bdd.stepdefinations.PlanitContact_stepDef.user_verify_error_message_and_enter_value_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 412000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user verify error message \"Message is required\" and enter value as \"Dear Sehrawat!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Message is required\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Dear Sehrawat!\"",
+                  "offset": 67
+                }
+              ],
+              "location": "com.bdd.stepdefinations.PlanitContact_stepDef.user_verify_error_message_and_enter_value_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1613000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user clicks on \"Submit\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Submit\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.bdd.stepdefinations.PlanitContact_stepDef.user_clicks_on_button(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20114000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user validates successful message after submitting form",
+            "match": {
+              "location": "com.bdd.stepdefinations.PlanitContact_stepDef.user_validates_successful_message_after_submitting_form()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PlanitTest2"
+          },
+          {
+            "name": "@Planit"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2338000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "initialise the browser opening \"Planit Jupiter Toys\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Planit Jupiter Toys\"",
+                  "offset": 31
+                }
+              ],
+              "location": "com.bdd.stepdefinations.CommonPage_stepDef.initialise_the_browser_opening(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-02-09T05:21:17.524Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1356000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bdd.stepdefinations.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "To validate shopping functionality in the cart and subtotals of items added",
+        "description": "",
+        "id": "to-test-jupiter-test-toys-application;to-validate-shopping-functionality-in-the-cart-and-subtotals-of-items-added",
+        "after": [
+          {
+            "result": {
+              "duration": 694000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bdd.stepdefinations.Hooks.embedScreenshotAfter(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 163000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user navigates to \"shop\" in header section and validates page URL",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"shop\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.bdd.stepdefinations.PlanitContact_stepDef.user_navigates_to_in_header_section_and_validates_page_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1988000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user buy 2 \"Stuffed Frog\" and add to shopping cart and get the product price",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 9
+                },
+                {
+                  "val": "\"Stuffed Frog\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.bdd.stepdefinations.PlanitShop_stepDef.user_buy_and_add_to_shopping_cart_and_get_the_product_price(java.lang.Integer,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4379000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user buy 5 \"Fluffy Bunny\" and add to shopping cart and get the product price",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 9
+                },
+                {
+                  "val": "\"Fluffy Bunny\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.bdd.stepdefinations.PlanitShop_stepDef.user_buy_and_add_to_shopping_cart_and_get_the_product_price(java.lang.Integer,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2651000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user buy 3 \"Valentine Bear\" and add to shopping cart and get the product price",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 9
+                },
+                {
+                  "val": "\"Valentine Bear\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.bdd.stepdefinations.PlanitShop_stepDef.user_buy_and_add_to_shopping_cart_and_get_the_product_price(java.lang.Integer,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 160000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user go to shopping \"cart\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cart\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.bdd.stepdefinations.PlanitShop_stepDef.user_go_to_shopping_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1176000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user verify subtotal and price for each product in the cart",
+            "match": {
+              "location": "com.bdd.stepdefinations.PlanitShop_stepDef.user_verify_subtotal_and_price_for_each_product_in_the_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 78000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user verify sum total value of all the products in the cart",
+            "match": {
+              "location": "com.bdd.stepdefinations.PlanitShop_stepDef.user_verify_sum_total_value_of_all_the_products_in_the_cart()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PlanitTest3"
+          },
+          {
+            "name": "@Planit"
+          }
+        ]
+      }
+    ],
+    "name": "To test Jupiter Test Toys Application",
+    "description": "",
+    "id": "to-test-jupiter-test-toys-application",
+    "keyword": "Feature",
+    "uri": "classpath:features/UI/Planit.feature",
+    "tags": []
+  }
+]

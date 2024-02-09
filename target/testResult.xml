@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="58.969">
+<testcase classname="To test Jupiter Test Toys Application" name="To validate error messages and mandatory fields on Contact Page" time="14.006">
+<system-out><![CDATA[Given initialise the browser opening "Planit Jupiter Toys"..................passed
+When user navigates to "contact" in header section and validates page URL...passed
+Then user clicks on "Submit" button.........................................passed
+And user populates mandatory fields and show them in the report.............passed
+And user verify error message "Forename is required" and enter value as "Saurabh".passed
+And user verify error message "Email is required" and enter value as "saurabh@xyz.com".passed
+And user verify error message "Message is required" and enter value as "Hello there!".passed
+Then user clicks on "Submit" button.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test Jupiter Test Toys Application" name="To validate successful submission message on Contact page" time="29.657">
+<system-out><![CDATA[Given initialise the browser opening "Planit Jupiter Toys"..................passed
+When user navigates to "contact" in header section and validates page URL...passed
+Then user populates mandatory fields without clicking Submit button and show them in report.passed
+Then user clicks on "Submit" button.........................................passed
+And user verify error message "Forename is required" and enter value as "Sehrawat".passed
+And user verify error message "Email is required" and enter value as "sehrawat@xyz.com".passed
+And user verify error message "Message is required" and enter value as "Dear Sehrawat!".passed
+Then user clicks on "Submit" button.........................................passed
+And user validates successful message after submitting form.................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test Jupiter Test Toys Application" name="To validate shopping functionality in the cart and subtotals of items added" time="14.992">
+<system-out><![CDATA[Given initialise the browser opening "Planit Jupiter Toys"..................passed
+When user navigates to "shop" in header section and validates page URL......passed
+Then user buy 2 "Stuffed Frog" and add to shopping cart and get the product price.passed
+Then user buy 5 "Fluffy Bunny" and add to shopping cart and get the product price.passed
+Then user buy 3 "Valentine Bear" and add to shopping cart and get the product price.passed
+And user go to shopping "cart" page.........................................passed
+Then user verify subtotal and price for each product in the cart............passed
+And user verify sum total value of all the products in the cart.............passed
+]]></system-out>
+</testcase>
+</testsuite>
